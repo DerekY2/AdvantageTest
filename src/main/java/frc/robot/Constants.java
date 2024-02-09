@@ -163,4 +163,9 @@ public final class Constants {
     public static final double PIDSetpoint = 2.83;
     public static final double stall = -0.1;
   }
+
+  public static final class AdvantageConstants{
+    /** Environment variable to toggle robot replay */
+    public static final String REPLAY_ENVIRONMENT_VAR = "ROBOT_REPLAY";
+  }
 } 
